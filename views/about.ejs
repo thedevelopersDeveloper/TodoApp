@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About - TodoApp</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #f2f5f9;
+      color: #333;
+    }
+
+    .navbar {
+      background: #4caf50;
+      color: white;
+      padding: 14px 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .navbar h1 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .nav-links a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #4caf50;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+
+    @media (min-width: 600px) {
+      .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .nav-links {
+        gap: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <h1>TodoApp</h1>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+    </div>
+  </div>
+
+  <!-- About Content -->
+  <div class="container">
+    <h2>About TodoApp</h2>
+    <p><strong>TodoApp</strong> is a simple and efficient task management tool designed to help you stay organized and productive. Whether you're managing daily chores, planning a project, or keeping track of personal goals, TodoApp provides a clean and intuitive interface to manage your tasks.</p>
+
+    <p>This app was built with modern web technologies like <strong>HTML, CSS, and JavaScript</strong>, and can be powered by backend frameworks like <strong>Express.js</strong> for full functionality like task persistence, updates, and deletions.</p>
+
+    <p>The responsive layout ensures a smooth experience across devices, making it easy to stay productive on-the-go from your desktop, tablet, or smartphone.</p>
+
+    <p>If you have any feedback or suggestions, feel free to get in touch!</p>
+  </div>
+
+</body>
+</html>
